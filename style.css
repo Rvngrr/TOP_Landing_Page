@@ -1,0 +1,161 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: Roboto;
+}
+
+.dark-colored{
+    background-color: #1F2937;
+    color: #F9FAF8;
+    padding: 15px
+}
+
+.navbar-container{
+    display: flex;
+    justify-content: space-around;
+}
+
+.navbar-links{
+    display:flex;
+    gap: 15px;
+}
+
+a,p{
+    color: inherit;
+    background-color: inherit;
+    text-decoration: none;
+    font-size: 12px;
+}
+
+h3{
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+.random-info-header{
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+}
+
+h2{
+    font-size: 48px;
+    font-weight: 900;
+}
+
+button{
+    color:#F9FAF8 ;
+    background-color: #3882F6;
+    border-radius: 7px;
+    padding: 5px 25px;
+    border-width: 0px;
+    margin-top:10px;
+}
+
+/* Hero */
+.hero{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 80px 110px;
+    gap:30px;
+    
+}
+
+.hero-content{
+    color: #E5E7EB;
+    font-size: 18px;   
+}
+
+.hero-img{
+    background-color: grey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 70px 130px;
+
+}
+
+
+/* random info */
+.Random-info{
+    padding-top: 40px;
+}
+.random-info-container{
+    display: flex;
+    flex-direction: column ;
+    align-items: center;
+}
+
+.info-img-placeholder{
+    aspect-ratio: 1;
+    border-color: #3882F6;
+    border-radius: 12px;
+    border-width: 3px;
+    border-style: solid;
+    margin-bottom: 5px;
+}
+
+.card{
+    display: flex;
+    gap: 40px;
+    margin: 40px;
+}
+.RI-card p{
+    text-align: center;
+}
+
+/* Quotes */
+
+.quotes-hero{
+    background-color: #E5E7EB;
+    display: flex;
+    justify-content: center;
+}
+
+.quotes-container{
+    padding: 70px;
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+}
+
+.quotes-container p{
+    background-color: #E5E7EB;
+    font-size: 24px;
+    color: #1F2937;
+    font-weight: 300;
+    font-style: italic;
+}
+
+.quotes-container h5{
+    font-size: 18px;
+    text-align: end;
+}
+
+/* Call to Action */
+.CTA-container{
+    background-color: #3882F6;
+    color: #E5E7EB;
+    padding: 30px 90px;
+    display: flex;
+    justify-content: space-between;
+    gap: 60px;
+    border-radius: 8px;
+}
+
+.CTA-card h5{
+    font-size: 16px;
+}
+
+.CTA-container button{
+    border-style: solid;
+    border-width: 1px;
+    border-color: #E5E7EB;
+}
+
+.footer-container{
+    text-align: center;
+    color:#F9FAF8;
+    padding:15px;
+}
